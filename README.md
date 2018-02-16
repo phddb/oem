@@ -1,4 +1,4 @@
-# One Equall Musick - English Site
+# One Equall Musick - French Site
 
 A [Jekyll](https://jekyllrb.com/) site for Montreal-based early music collective One Equall Musick, built using [Sleek](https://janczizikow.github.io/sleek/)
 
