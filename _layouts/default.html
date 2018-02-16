@@ -1,0 +1,65 @@
+---
+layout: compress
+---
+<html lang="{{ page.lang | default: site.lang | default: "en_US" }}">
+
+  {% include head.html %}
+
+  <body class="site">
+
+    {% if site.google_tag_manager %}
+
+      <!-- Google Tag Manager (noscript) -->
+      <noscript><iframe src="https://www.googletagmanager.com/ns.html?id={{ site.google_tag_manager }}"
+      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+      <!-- End Google Tag Manager (noscript) -->
+
+    {% endif %}
+
+    {% include header.html %}
+
+    <div class="hero--small">
+      	&nbsp;
+    </div>
+
+    <main class="site__content">
+    <div id="welcome" class="container">
+<h1><a href="http://en.oneequallmusick.org">Welcome</a></h1>
+<p class="frontinfodescription">Montreal-based One Equall Musick is a collaborative vocal ensemble dedicated to the programming and interpretation of high quality repertoire from the fifteenth-century to the present day. </p>
+<hr>
+{% for page in site.pages %}
+      {% if page.categories contains 'current' %}
+        {% for performance in page.performances %}
+          <div class="performance">
+            <h1>{{performance.title}}</h1>
+            <h3>{% if performance.subtitle %}
+              {{performance.subtitle}}
+            {% endif %}</h3>
+            {% for performance in performance.guests%}
+              {% if performance.name %}<h5>
+                {{performance.name}}{% if performance.director %}
+                - {{performance.director}}, Director
+                {% endif %}</h5>
+              {% endif %}
+            {% endfor %}
+            <h2>{{performance.date}} at {{performance.time}}</h2>
+            <h4>{{performance.venue}}<br/>
+            {{performance.address}}</h4>
+            {% if performance.facebookurl %}
+              <p>Check out Facebook at <a href="{{performance.facebookurl}}">{{performance.facebookurl}}</a>.</p>
+            {% endif %}
+            {% if performance.ticketsurl %}
+              <p>Tickets available at <a href="{{performance.ticketsurl}}">{{performance.ticketsurl}}</a>.</p>
+            {% endif %}
+          </div>
+        {% endfor %}
+      {% endif %}
+    {% endfor %}
+</div>
+    </main>
+
+    {% include footer.html %}
+
+  </body>
+
+</html>

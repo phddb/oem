@@ -1,0 +1,37 @@
+<div id="people">
+<h2>Directrice Artistique</h2>
+{% for member in site.data.members %}
+  {% if member.roles contains 'director' %}
+    <h4 class="bioheader">{{member.name}}</h4>
+    <img class="portrait" src="{{ '/assets/img/portraits/' | relative_url }}{{member.id}}.jpg" title="{{member.name}}">
+    <p class="bio clear-block">{{member.bio}}</p>
+  {% endif %}
+{% endfor %}
+
+<h2>Membres</h2>
+<p id="members">
+{% for member in site.data.members %}
+  {% if member.roles contains 'member' %}
+    <img id="{{member.id}}" class="portrait hasmodal" src="{{ '/assets/img/portraits/' | relative_url }}{{member.id}}.jpg" title="{{member.name}}" data-bio="{{member.bio}}">
+  {% endif %}
+{% endfor %}
+</p>
+
+<h2>Conseil d'administration</h2>
+<ul id="board">
+{% for member in site.data.members %}
+  {% if member.roles contains 'board' %}
+    <li>{{member.name}}</li>
+  {% endif %}
+{% endfor %}
+</ul>
+
+<h2>Alumni</h2>
+<p id="alumni">
+{% for member in site.data.members %}
+  {% if member.roles contains 'former' %}
+    <img id="{{member.id}}" class="portrait hasmodal" src="{{ '/assets/img/portraits/' | relative_url }}{{member.id}}.jpg" title="{{member.name}}" data-bio="{{member.bio}}">
+  {% endif %}
+{% endfor %}
+</p>
+</div>

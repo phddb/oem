@@ -1,0 +1,72 @@
+---
+layout: compress
+---
+<html lang="{{ page.lang | default: site.lang | default: "en_US" }}">
+
+  {% include head.html %}
+
+  <body class="site">
+
+    {% if site.google_tag_manager %}
+
+      <!-- Google Tag Manager (noscript) -->
+      <noscript><iframe src="https://www.googletagmanager.com/ns.html?id={{ site.google_tag_manager }}"
+      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+      <!-- End Google Tag Manager (noscript) -->
+
+    {% endif %}
+
+    {% include header.html %}
+
+    <div class="hero--small">
+      <div class="hero__wrap">
+        <div class="container">
+          <h1 class="hero__title">{{ page.title }}</h1>
+        </div>
+      </div>
+    </div>
+    <main class="site__content">
+
+      <div class="container">
+        <div class="page-content">
+          {{ page.description }}
+          {{ content }}
+          <hr>
+          {% for performance in page.performances %}
+          <div class="performance">
+            <div class="projectposter">{% if performance.posterimage %}<img class="poster" src="{{ '/assets/img/posters/' | relative_url }}{{performance.posterimage}}">{% endif %}</div>
+            <div class="projectdetails"><h2>{{performance.title}}</h2>
+            <h4>{% if performance.subtitle %}
+              {{performance.subtitle}}
+            {% endif %}</h4>
+            {% for performance in performance.guests%}
+              {% if performance.name %}<h5>
+                {{performance.name}}{% if performance.director %}
+                - {{performance.director}}, Director
+                {% endif %}</h5>
+              {% endif %}
+            {% endfor %}
+            <h3>{{performance.date}} at {{performance.time}}</h3>
+            <h5>{{performance.venue}}<br/>
+            {{performance.address}}</h5>
+            {% if performance.facebookurl %}
+              <p>Check out Facebook at <a href="{{performance.facebookurl}}">{{performance.facebookurl}}</a>.</p>
+            {% endif %}
+            {% if performance.ticketsurl %}
+              <p>Tickets available at <a href="{{performance.ticketsurl}}">{{performance.ticketsurl}}</a>.</p>
+            {% endif %}
+            </div>
+          </div>
+          <hr>
+          {% endfor %}
+
+        </div>
+      </div>
+
+    </main>
+
+    {% include footer.html %}
+
+  </body>
+
+</html>
