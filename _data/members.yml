@@ -1,5 +1,5 @@
 - name: "Dave Benson"
-  roles: "member, board"
+  roles: "former"
   id: "dbenson"
   bio: "Dave Benson has been an active member of Montreal’s professional choral community for over 15 years. In that time, he has sung with many of the city’s finest groups, including Viva Voce, the Theatre of Early Music and the Montreal Opera Chorus. He continues to sing regularly with the chorus of the Montreal Symphony Orchestra. Further afield, he has toured nationally with the Canadian Chamber Choir and the National Youth Choir, and in Germany and Greece with the Stuttgart Festival Ensemble Chorus. He holds a Bachelor’s degree in Voice Performance (High Distinction) from McGill University and is currently completing a doctorate in Sound Recording at the same institution."
   email:
@@ -49,6 +49,14 @@
   twitter: 
   homepage: "http://www.christopherhossfeld.com"
 
+- name: "Yoni Kaston"
+  roles: "board"
+  id: "ykaston"
+  bio: ""
+  email:
+  twitter: 
+  homepage: ""
+
 - name: "Carole LeDez"
   roles: "member, board"
   id: "cledez"
@@ -65,6 +73,14 @@
   twitter: 
   homepage:
   
+- name: "Kimberley Lynch"
+  roles: "member"
+  id: "klynch"
+  bio: "Soprano Kimberley Lynch performs frequently in Montreal, her repertoire spanning the baroque era to the 21st century. She is an active performer of contemporary music in concert and recently attended the International Summer Courses for New Music in Darmstadt (summer 2018), and is also is a frequent performer in projects by Montreal’s Earth World Collaborative. Other recent performances include being featured as a soloist in Bach’s Magnificat with the choir of the Church of Saint Andrew and Saint Paul (2017), and several recitals in Montreal and Ottawa in collaboration with Pianist Polina Gubnitskaia. She also appears often in concert with organist Adrian Foster, most recently “A New Earth – Music for soprano and organ” (James United Church, 2017). She holds a masters degree in opera and voice performance from the Schulich School of Music at McGill University (2016) where she was featured in several of Opera McGill’s productions, most notably in the title role of Handel’s opera Rodelinda (winter 2016)."
+  email:
+  twitter: 
+  homepage: ""
+
 - name: "Matthew Milner"
   roles: "former, board"
   id: "mmilner"
@@ -74,7 +90,7 @@
   homepage: "http://www.matthewmilner.name"
   
 - name: "Rona Nadler"
-  roles: "director, board"
+  roles: "director"
   id: "rnadler"
   bio: "Originally from Calgary, Rona Nadler enjoys a multi-faceted career in the Montreal music scene. As a harpsichordist, Rona has appeared with Les Voix Baroques, I Musici de Montreal, the McGill Chamber Orchestra, and has performed in the Montreal Baroque Festival, Montreal Bach Festival, Ottawa International Chamber Music Festival, and Arion “Croque Baroque” Series. She is a founding member of Infusion Baroque, winners of the 2014 Early Music America Baroque Performance Competition. In the world of baroque opera, Rona has worked as a vocal coach with Opera McGill and Opera da Camera, and with Compagnie Baroque Mont-Royal as music director of their 2015 and 2016 productions. Since 2014, Rona has been Music Coordinator and Cantorial Soloist at Temple Emanu-El-Beth Sholom. She is also a founding member and Co-Artistic Director of the vocal ensemble One Equall Musick. Rona holds bachelors and masters degrees from McGill University in Harpsichord Performance where she studied with Professor Hank Knox."
   email:
@@ -82,7 +98,7 @@
   homepage:
   
 - name: "Alex Ross"
-  roles: "member"
+  roles: "member, board"
   id: "aross"
   bio: "Alexander Ross holds his Bachelor's of Music in Organ Performance (honours, outstanding performance in organ) from McGill University having studied with Dr. John Grew, and Prof. Hans-Ola Ericsson. Alex continues his studies by pursuing an Artist Diploma at McGill. He held the position of Organ Scholar at Christ Church Cathedral, Montreal from 2012–2015 but now spends the majority of his time and efforts as an organ builder with Juget-Sinclair facteurs d'orgues. Alex has concertized primarily in Canada, but has also been heard publicly in the United States, and the United Kingdom. He took first prize at the Lynnwood Farnam Organ Competition in the spring of 2015. A lesser known fact about Alex is that he has been known to produce some of the finest cinnamon buns in Montreal."
   email:

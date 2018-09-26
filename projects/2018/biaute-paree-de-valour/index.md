@@ -3,7 +3,7 @@ layout: project
 title: "Biauté parée de valour"
 permalink: "/projects/2018/biaute-paree-de-valour/"
 projectyear: "2018"
-categories: [project,current]
+categories: [project]
 description:
 lead:
 performances:
