@@ -3,7 +3,7 @@ layout: project
 title: "High Tea"
 permalink: "/projects/2018/high-tea/"
 projectyear: "2018"
-categories: [current,project]
+categories: [project]
 description: >
   Join us for an afternoon of Tea and scones, music and pottery auction to raise money for our upcoming season of choral concerts and collaborations. <br />
 
