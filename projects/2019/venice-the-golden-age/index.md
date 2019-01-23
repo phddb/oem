@@ -15,6 +15,7 @@ performances:
     venue: "Chapelle Notre-Dame-de-Bon-Secours"
     address: "400, rue Saint-Paul Est, Montréal, QC"
     ticketsurl: 
+    ticketstext: "Don suggéré : $20"
     facebookurl: "https://www.facebook.com/events/1540318706070843/"
     posterimage: "2019/venice-the-golden-age.jpg"
     guests:

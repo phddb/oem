@@ -52,6 +52,9 @@ layout: compress
             {% if performance.facebookurl %}
               <p>Check out Facebook at <a href="{{performance.facebookurl}}">{{performance.facebookurl}}</a>.</p>
             {% endif %}
+            {% if performance.ticketstext %}
+              <p>{{performance.ticketstext}}</p>
+            {% endif %}
             {% if performance.ticketsurl %}
               <p>Tickets available at <a href="{{performance.ticketsurl}}">{{performance.ticketsurl}}</a>.</p>
             {% endif %}
