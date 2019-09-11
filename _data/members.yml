@@ -1,13 +1,13 @@
 - name: "Dave Benson"
   roles: "former"
   id: "dbenson"
-  bio: "Dave Benson has been an active member of Montreal’s professional choral community for over 15 years. In that time, he has sung with many of the city’s finest groups, including Viva Voce, the Theatre of Early Music and the Montreal Opera Chorus. He continues to sing regularly with the chorus of the Montreal Symphony Orchestra. Further afield, he has toured nationally with the Canadian Chamber Choir and the National Youth Choir, and in Germany and Greece with the Stuttgart Festival Ensemble Chorus. He holds a Bachelor’s degree in Voice Performance (High Distinction) from McGill University and is currently completing a doctorate in Sound Recording at the same institution."
+  bio: "Dave Benson has been an active member of Montreal’s professional choral community for over 15 years. In that time, he has sung with many of the city’s finest groups, including Viva Voce, the Theatre of Early Music and the Montreal Opera Chorus. He continues to sing regularly with the choir of the Church of St. Andrew and St. Paul and the Montreal Symphony Orchestra chorus. Further afield, he has toured nationally with the Canadian Chamber Choir and the National Youth Choir, and in Germany and Greece with the Stuttgart Festival Ensemble Chorus. He holds a Bachelor’s degree in Voice Performance (High Distinction) from McGill University and is currently completing a doctorate in Sound Recording at the same institution."
   email:
   twitter: 
   homepage:
    
 - name: "Duncan Campbell"
-  roles: "member"
+  roles: "former"
   id: "dcampbell"
   bio: "Toronto-born Duncan Campbell is continuously falling deeper in love with the place, the people and the music that make up the city of Montreal. Having completed his Bachelor's in classical trumpet at McGill, he is now pursuing an extracurricular education in a broad range of disciplines, including but not limited to salsa, balkan folk, baroque trumpet and renaissance polyphony. He can be found among the teeming throng Sunday mornings at St. Andrew's and St. Paul's, or else riding his bike very quickly and very comfortably through the streets of downtown."
   email:
@@ -57,8 +57,16 @@
   twitter: 
   homepage: ""
 
+- name: "Adrian Foster"
+  roles: "board"
+  id: "afoster"
+  bio: ""
+  email:
+  twitter: 
+  homepage: ""
+
 - name: "Carole LeDez"
-  roles: "member, board"
+  roles: "member"
   id: "cledez"
   bio: "Carole spent many years living and studying in Europe. After achieving a degree in Performance and Composition at Huddersfield in Yorkshire, she found a niche singing contemporary music. She later decided to exchange leaning over pianos and singing high ‘C’ s for the romantic repertoire of France and Germany, becoming a member of the Ensemble Vocal Michel Piquemal in Paris. Arriving back in Canada, she continued to travel backwards in time and has sung with various early music groups in the Montreal area. She is a founding member of OEM and has recently also joined the medieval ensemble Scholastica. Carole is a soloist with Ensemble Da Capo. She continues to study voice with Lyne Fortin. "
   email:
@@ -66,7 +74,7 @@
   homepage:
 
 - name: "Anna Lewton-Brain"
-  roles: "member,board"
+  roles: "member, board"
   id: "alewton-brain"
   bio: "Anna Lewton-Brain, BA (Vind), MA (Dal) is completing a PhD in English Literature at McGill University, where she teaches courses on poetics and Shakespeare. Her dissertation, entitled “Metaphysical Music: Donne, Herbert, Crashaw, and Seventeenth-Century Song” examines the intersections of music and the Metaphysical poets in Renaissance English literary culture. Anna has maintained a singing career in tandem with her academic pursuits, performing with the King’s College Chapel Choir, Symphony Nova Scotia Chorus, McGill Chamber Orchestra, Music at the Red Roof Bach Cantata Series, and in the Montreal Bach Festival. Her literary and musical vocations intersect frequently: she presented a public lecture on music and poetry at the Montreal Baroque Festival in 2014, performed in a workshop on Renaissance polyphony at the Stratford Shakespeare Festival in June 2015, and lead and sang in a workshop on seventeenth-century poetry and music at the University of Cambridge in July 2015. She is a founding member of One Equall Musick and has lead a number of projects with the ensemble, including the Book of Common Prayer celebratory 350th anniversary Evensong series (2012), the Advent lessons and carols service (2014), and One Equall Musick’s performance at the launch of the Early Modern Conversions Project (2013), an international research project hosted by McGill University (earlymodernconversions.org). Anna has over a decade of professional experience in cathedral and parish choirs, and currently works as a section leader at Christ Church Cathedral, Montreal."
   email:
