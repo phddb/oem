@@ -1,3 +1,31 @@
+- collectionname: "Venice: The Golden Age"
+  year: "2019"
+  media:
+  - title: ""
+    source: "youtube"
+    sourceid: "lozPxg0MYf4"
+    type: "video"
+  - title: ""
+    source: "youtube"
+    sourceid: "cH0UWfjHaB0"
+    type: "video"
+
+- collectionname: "Richafort"
+  year: "2018"
+  media:
+  - title: ""
+    source: "youtube"
+    sourceid: "rBMoQKsFTxQ"
+    type: "video"
+  - title: ""
+    source: "youtube"
+    sourceid: "vEZF5ryHDHU"
+    type: "video"
+  - title: ""
+    source: "youtube"
+    sourceid: "vIiezEutfaY"
+    type: "video"
+
 - collectionname: "Schütz & Schein"
   year: "2014"
   media:
