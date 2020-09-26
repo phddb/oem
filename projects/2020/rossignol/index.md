@@ -15,7 +15,7 @@ performances:
     venue: "Chapelle Notre-Dame-de-Bon-Secours"
     address: "400 rue Saint-Paul E, Montreal, QC"
     ticketsurl: 
-    ticketstext: "Don suggéré : $20"
+    ticketstext: "Don suggéré : $20!"
     facebookurl: 
     posterimage: "2020/rossignol.jpg"
     guests:
