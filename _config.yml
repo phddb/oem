@@ -3,7 +3,7 @@ author: One Equall Musick
 email: contact@oneequallmusick.org # email for form submission, you also have to change it in _js/scripts.js
 description: > # this means to ignore newlines until "baseurl:"
   Montreal-based early music collective, One Equall Musick
-baseurl: "/" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://www.oneequallmusick.org" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username:  # replace with your_twitter_username or comment to remove link from footer
 github_username:   # replace with your_github_username or comment to remove link from footer
@@ -44,6 +44,6 @@ plugins:
 encoding: utf-8
 
 # for jekyll-multiple-languages-plugin
-languages: ["en", "fr"]
+languages: ["fr","en"]
 exclude_from_localizations: ["script","assets","_sass","_layouts","_js","_includes"]
 default_locale_in_subfolder: true

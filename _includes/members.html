@@ -3,7 +3,7 @@
 {% for member in site.data.members %}
   {% if member.roles contains 'director' %}
     <h4 class="bioheader">{{member.name}}</h4>
-    <img class="portrait" src="{{ '/assets/img/portraits/' | relative_url }}{{member.id}}.jpg" title="{{member.name}}">
+    <img class="portrait" src="{{ '/assets/img/portraits/' | prepend: site.baseurl_root }}{{member.id}}.jpg" title="{{member.name}}">
     <p class="bio clear-block">{{member.bio}}</p>
   {% endif %}
 {% endfor %}
@@ -12,7 +12,7 @@
 <p id="members">
 {% for member in site.data.members %}
   {% if member.roles contains 'member' %}
-    <img id="{{member.id}}" class="portrait hasmodal" src="{{ '/assets/img/portraits/' | relative_url }}{{member.id}}.jpg" title="{{member.name}}" data-bio="{{member.bio}}">
+    <img id="{{member.id}}" class="portrait hasmodal" src="{{ '/assets/img/portraits/' | prepend: site.baseurl_root  }}{{member.id}}.jpg" title="{{member.name}}" data-bio="{{member.bio}}">
   {% endif %}
 {% endfor %}
 </p>
@@ -30,7 +30,7 @@
 <p id="alumni">
 {% for member in site.data.members %}
   {% if member.roles contains 'former' %}
-    <img id="{{member.id}}" class="portrait hasmodal" src="{{ '/assets/img/portraits/' | relative_url }}{{member.id}}.jpg" title="{{member.name}}" data-bio="{{member.bio}}">
+    <img id="{{member.id}}" class="portrait hasmodal" src="{{ '/assets/img/portraits/' | prepend: site.baseurl_root  }}{{member.id}}.jpg" title="{{member.name}}" data-bio="{{member.bio}}">
   {% endif %}
 {% endfor %}
 </p>

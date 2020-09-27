@@ -1,8 +1,9 @@
 global:
   french: Français
   english: English
+  group_description: One Equall Musick est un ensemble vocal collaboratif se consacrant à l’interprétation des oeuvres musicales les plus raffinées du XVe siècle à aujourd'hui.
 pages:
   welcome: Bienvenue
   about: À propos
-  media: media
-  projects: Projects
+  media: Médias
+  projects: Projets

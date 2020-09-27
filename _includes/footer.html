@@ -40,4 +40,4 @@
     <span>&copy; {{ site.time | date: '%Y' }} {{ site.title | escape }}.<br>All rights reserved. Tous droits réservés.</span>
   </div>
 </footer>
-<script async src="{{ "/assets/js/bundle.js" | relative_url }}"></script>
+<script async src="{{ "/assets/js/bundle.js" | prepend: site.baseurl_root }}"></script>

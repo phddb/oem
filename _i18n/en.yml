@@ -1,8 +1,9 @@
 global:
   french: Français
   english: English
+  group_description: Montreal-based One Equall Musick is a collaborative vocal ensemble dedicated to the programming and interpretation of high quality repertoire from the fifteenth-century to the present day.
 pages:
-  welcome: Bienvenue
-  about: À propos
-  media: media
+  welcome: Welcome
+  about: About
+  media: Media
   projects: Projects

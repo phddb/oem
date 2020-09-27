@@ -1,7 +1,7 @@
 ---
 layout: compress
 ---
-<html lang="{{ page.lang | default: site.lang | default: "en_US" }}">
+<html lang="{{ page.lang | default: site.lang | default: "fr" }}">
 
   {% include head.html %}
 
@@ -24,8 +24,8 @@ layout: compress
 
     <main class="site__content">
     <div id="welcome" class="container">
-<h1><a href="http://fr.oneequallmusick.org">Bienvenue</a></h1>
-<p class="frontinfodescription">One Equall Musick est un ensemble vocal collaboratif se consacrant à l’interprétation des oeuvres musicales les plus raffinées du XVe siècle à aujourd'hui.</p>
+<h1><a href="{{url}}">{% t pages.welcome %}</a></h1>
+<p class="frontinfodescription">{% t global.group_description %}</p>
 <hr>
 {% for page in site.pages %}
       {% if page.categories contains 'current' %}

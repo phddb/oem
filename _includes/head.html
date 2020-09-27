@@ -5,16 +5,16 @@
 
   {% seo %}
 
-  <link rel="apple-touch-icon" sizes="180x180" href="{{ '/assets/img/icons/apple-touch-icon.png' | relative_url }}">
-  <link rel="icon" type="image/png" sizes="32x32" href="{{'/assets/img/icons/favicon-32x32.png' | relative_url }}">
-  <link rel="icon" type="image/png" sizes="16x16" href="{{'/assets/img/icons/favicon-16x16.png' | relative_url }}">
-  <link rel="manifest" href="{{ '/assets/img/icons/manifest.json' | relative_url }}">
-  <link rel="mask-icon" href="{{ '/assets/img/icons/safari-pinned-tab.svg' | relative_url }}" color="#5bbad5">
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ '/assets/img/icons/apple-touch-icon.png' | prepend: site.baseurl_root }}">
+  <link rel="icon" type="image/png" sizes="32x32" href="{{'/assets/img/icons/favicon-32x32.png' | prepend: site.baseurl_root }}">
+  <link rel="icon" type="image/png" sizes="16x16" href="{{'/assets/img/icons/favicon-16x16.png' | prepend: site.baseurl_root  }}">
+  <link rel="manifest" href="{{ '/assets/img/icons/manifest.json' | prepend: site.baseurl_root }}">
+  <link rel="mask-icon" href="{{ '/assets/img/icons/safari-pinned-tab.svg' | prepend: site.baseurl_root  }}" color="#5bbad5">
   <!--[if IE]><link rel="shortcut icon" href="/assets/img/icons/favicon.ico"><![endif]-->
-  <link rel="shortcut icon" href="{{ '/assets/img/icons/favicon.ico' | relative_url }}">
+  <link rel="shortcut icon" href="{{ '/assets/img/icons/favicon.ico' | prepend: site.baseurl_root  }}">
   <meta name="apple-mobile-web-app-title" content="One Equall Musick">
   <meta name="application-name" content="One Equall Musick">
-  <meta name="msapplication-config" content="{{ '/assets/img/icons/browserconfig.xml' | relative_url }}">
+  <meta name="msapplication-config" content="{{ '/assets/img/icons/browserconfig.xml' | prepend: site.baseurl_root  }}">
   <meta name="theme-color" content="#ffffff">
 
   {% if site.google_tag_manager %}
@@ -29,8 +29,8 @@
 
   </style>
   <link href='//fonts.googleapis.com/css?family=Noto+Sans|Quicksand' rel='stylesheet' type='text/css'>
-  <link rel="preload" href="{{ '/assets/css/main.css' | relative_url }}" as="style" onload="this.rel='stylesheet'">
-  <noscript><link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}"></noscript>
+  <link rel="preload" href="{{ '/assets/css/main.css' | prepend: site.baseurl_root  }}" as="style" onload="this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="{{ '/assets/css/main.css' | prepend: site.baseurl_root  }}"></noscript>
   <script type="text/javascript">
    {% include loadCss.js %}
   </script>
