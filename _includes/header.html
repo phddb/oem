@@ -9,9 +9,9 @@
       <nav class="header__links">
         <div class="container header__links-wrapper">
           <a class="header__link" href="{{ '/' | relative_url }}" itemprop="url"><span itemprop="name">{% t pages.welcome %}</span></a>
-          <a class="header__link" href="{{ '/a-propos' | relative_url }}" itemprop="url"><span itemprop="name">{% t pages.about %}</span></a>
-          <a class="header__link" href="{{ '/media' | relative_url }}" itemprop="url"><span itemprop="name">{% t pages.media %}</span></a>
-          <a class="header__link" href="{{ '/projects' | relative_url }}" itemprop="url"><span itemprop="name">{% t pages.projects%}</span></a>
+          <a class="header__link" href="{% translate_link about %}" itemprop="url"><span itemprop="name">{% t pages.about %}</span></a>
+          <a class="header__link" href="{% translate_link media %}" itemprop="url"><span itemprop="name">{% t pages.media %}</span></a>
+          <a class="header__link" href="{% translate_link projects %}" itemprop="url"><span itemprop="name">{% t pages.projects%}</span></a>
 
           <!-- <a class="header__link" href="http://en.oneequallmusick.org" itemprop="url"><span itemprop="name">English</span></a> -->
 

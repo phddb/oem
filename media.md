@@ -1,6 +1,8 @@
 ---
 layout: page
-title: Media
+title: pages.media
+namespace: media
 permalink: /media/
 ---
-{% include media.html %}
+
+{% translate_file media.md %}

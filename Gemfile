@@ -9,3 +9,5 @@ group :jekyll_plugins do
   gem "jekyll-asciidoc"
   gem "jekyll-multiple-languages-plugin"
 end
+
+gem 'byebug'
