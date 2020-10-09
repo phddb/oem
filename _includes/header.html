@@ -11,12 +11,15 @@
           <a class="header__link" href="{{ '/' | relative_url }}" itemprop="url"><span itemprop="name">{% t pages.welcome %}</span></a>
           <a class="header__link" href="{% translate_link about %}" itemprop="url"><span itemprop="name">{% t pages.about %}</span></a>
           <a class="header__link" href="{% translate_link media %}" itemprop="url"><span itemprop="name">{% t pages.media %}</span></a>
+
+          <!-- TEMPORARILY REMOVING PROJECTS LINK UNTIL WE SORT IT OUT
           <a class="header__link" href="{% translate_link projects %}" itemprop="url"><span itemprop="name">{% t pages.projects%}</span></a>
+          -->
 
           <!-- <a class="header__link" href="http://en.oneequallmusick.org" itemprop="url"><span itemprop="name">English</span></a> -->
 
-          {% if site.lang == "en" %}
-            {% capture link1 %}{{ site.baseurl_root }}/fr{{ page.url}}{% endcapture %}
+          {% if site.lang == "en" %}  <!-- if config.default_locale_in_subfolder is true, add an "fr" to this link -->
+            {% capture link1 %}{{ site.baseurl_root }}{{ page.url}}{% endcapture %}
             <a class="header__link" href="{{ link1 }}" ><span itemprop="name">{% t global.french %}</span></a>
           {% elsif site.lang == "fr" %}
             {% capture link2 %}{{ site.baseurl_root }}/en{{ page.url  }}{% endcapture %}

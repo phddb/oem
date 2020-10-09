@@ -46,4 +46,4 @@ encoding: utf-8
 # for jekyll-multiple-languages-plugin
 languages: ["fr","en"]
 exclude_from_localizations: ["script","assets","_sass","_layouts","_js","_includes"]
-default_locale_in_subfolder: true
+default_locale_in_subfolder: false
