@@ -1,5 +1,18 @@
+
+<h4>In projects.html</h4>
+
+<p>{{ site | inspect}}</p>
 <div id="projects">
-{% for year in site.data.projects %}
+{% for project in site.projects %}
+{{ project | inspect }}
+
+<h2>{{project}}</h2>
+{% endfor %}
+</div>
+
+<!--
+<div id="projects">
+{% for year in site.projects %}
 <h2>{{year.year}}</h2>
 <div class="yearprojects">
   {% for project in year.year %}
@@ -14,3 +27,4 @@
   </div>
 {% endfor %}
 </div>
+-->

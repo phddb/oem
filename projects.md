@@ -4,5 +4,8 @@ title: pages.projects
 namespace: projects
 permalink: "/projets/"
 ---
+Hi there! In projects.md
 
-{% translate_file projects/index.md %}
+
+
+{% include projects.html %}
