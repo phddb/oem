@@ -84,13 +84,15 @@ function removeModal() {
 }
 
 function showPerson(){
+    console.warn("showPerson called!  I guess we'll need this so we should fix it.")
 	console.log(this);
 	var id=$(this).attr('id');
-	var b=$('#'+id).data('bio');
+	var b_en = $('#'+id).data('bio_en');
+    //var b_fr = $('#'+id).data('bio_en');
 	var n=$('#'+id).attr('title');
 	$(".modal__body").empty();
 	openModal();
-	$(".modal__body").append("<h2>"+n+"</h2><p>"+b+"</p>");
+    $(".modal__body").append("<h2>" + n + "</h2><p>" + b_fr + "</p><p>" + b_en +"</p>");
 }
 
 function formCheck() {
@@ -5125,11 +5127,12 @@ function(e) {
 }), $(document).ready(function() {
     toggleMobileNav(), ShowHideNav(), formCheck();
     $(".portrait").click(function(){
-		var b=$(this).data('bio');
+		var b_en=$(this).data('bio_en');
+        var b_fr = $(this).data('bio_fr');
 		var n=$(this).attr('title');
 		openModal();
 		$(".modal__body").empty();
-		$(".modal__body").append("<h2>"+n+"</h2><p>"+b+"</p>");
+        $(".modal__body").append("<h2>" + n + "</h2><p>" + b_fr +"</p><p>"+b_en+"</p>");
 	});
 }), $(document).keyup(function(e) {
     27 === e.keyCode && removeModal()
