@@ -1,9 +1,22 @@
+<!-- this file is unused at the moment -->
 
 <h4>In projects.html</h4>
 
-<p>{{ site | inspect}}</p>
+
+
+<script>
+  window.debug = {
+    site: JSON.parse(decodeURIComponent("{{ site | jsonify | uri_escape }}")),
+    page: JSON.parse(decodeURIComponent("{{ page | jsonify | uri_escape }}")),
+    layout: JSON.parse(decodeURIComponent("{{ layout | jsonify | uri_escape }}")),
+    content: JSON.parse(decodeURIComponent("{{ content | jsonify | uri_escape }}")),
+    paginator: JSON.parse(decodeURIComponent("{{ paginator | jsonify | uri_escape }}"))
+  }
+</script>
+
 <div id="projects">
-{% for project in site.projects %}
+{% for project in site.pages %}
+<p>project inspect</p>
 {{ project | inspect }}
 
 <h2>{{project}}</h2>

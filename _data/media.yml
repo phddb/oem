@@ -1,3 +1,13 @@
+- collectionname: "Le Rossignol d'est en ouest"
+  year: "2021"
+  media:
+  - title: ""
+    source: "youtube"
+    sourceid: "eGoRRUlf4sU"
+    type: "video"
+    featureOnWelcomePage: true
+
+
 - collectionname: "Venice: The Golden Age"
   year: "2019"
   media:

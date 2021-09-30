@@ -34,7 +34,7 @@ layout: compress
           <hr>
           {% for performance in page.performances %}
           <div class="performance">
-            <div class="projectposter">{% if performance.posterimage %}<img class="poster" src="{{ '/assets/img/posters/' | relative_url }}{{performance.posterimage}}">{% endif %}</div>
+            <div class="projectposter">{% if performance.posterimage %}<img class="poster" src="{{ '/assets/img/posters/' }}{{performance.posterimage}}">{% endif %}</div>
             <div class="projectdetails"><h2>{{performance.title}}</h2>
             <h4>{% if performance.subtitle %}
               {{performance.subtitle}}
