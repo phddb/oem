@@ -63,6 +63,12 @@ layout: compress
     {% endfor %}
 </div>
 
+<div class="performance  container" style="text-align: center">
+  <h1>{% t global.landingMessage1 %}</h1>
+  <p>{% t global.landingMessage2 %}</p>
+  <p>{% t global.landingMessage3 %}</p>
+</div>
+
 <div>
 {% for collection in site.data.media %}
   {% for media in collection.media %}

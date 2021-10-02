@@ -1,6 +1,9 @@
 global:
   french: Français
   english: English
+  landingMessage1: "Le Rossignol d'est en ouest"
+  landingMessage2: "Diffusion du concert le 2 octobre 2021 à 19h (disponible du 2 à 16 octobre)"
+  landingMessage3: "Ensemble Vocale One Equall Musick en collaboration avec l'oudiste et chanteuse Lamia Yared présente 'Le Rossignol d'est en ouest'; un concert qui explore le rossignol comme source d'images et d'inspiration dans la musique européenne et du moyen-orient."
   group_description: One Equall Musick est un ensemble vocal collaboratif se consacrant à l’interprétation des oeuvres musicales les plus raffinées du XVe siècle à aujourd'hui.
 pages:
   welcome: Bienvenue

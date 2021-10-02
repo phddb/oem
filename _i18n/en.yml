@@ -1,6 +1,10 @@
 global:
   french: Français
   english: English
+  landingMessage1: "Le Rossignol d'est en ouest"
+  landingMessage2: "Video concert premiering October 2, 2021 at 7:00 pm (available online until October 16th)"
+  landingMessage3: >
+    One Equall Musick in collaboration with oudist and vocalist Lamia Yared  present "Le Rossignol d'est en ouest"; a concert that explores the nightingale and its song as a source of imagery and inspiration in European and Middle Eastern music.
   group_description: Montreal-based One Equall Musick is a collaborative vocal ensemble dedicated to the programming and interpretation of high quality repertoire from the fifteenth-century to the present day.
 pages:
   welcome: Welcome
