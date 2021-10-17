@@ -27,7 +27,7 @@ layout: compress
     <div id="welcome" class="container">
 <h1><a href="{{url}}">{% t pages.welcome %}</a></h1>
 <p class="frontinfodescription">{% t global.group_description %}</p>
-<hr>
+<!-- <hr> -->
 {% for page in site.pages %}
 
       {% if page.categories contains 'current' %}
@@ -63,7 +63,7 @@ layout: compress
     {% endfor %}
 </div>
 
-<div class="performance  container" style="text-align: center">
+<!-- <div class="performance  container" style="text-align: center">
   <h1>{% t global.landingMessage1 %}</h1>
   <p>{% t global.landingMessage2 %}</p>
   <p>{% t global.landingMessage3 %}</p>
@@ -85,7 +85,7 @@ layout: compress
     {% endif %}
   {% endfor %}
 {% endfor %}
-</div>
+</div> 
 
 <div class="container" style="text-align: center; margin-bottom: 16px">
 
@@ -98,6 +98,7 @@ layout: compress
   <p style="font-size: x-small">{% t global.no_tax_receipts %}</p>
 
 </div>
+-->
 
 </main>
 
