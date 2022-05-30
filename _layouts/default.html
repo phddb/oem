@@ -34,7 +34,7 @@ layout: compress
         
         {% for performance in page.performances %}
           <div class="performance">
-            <h1>{{performance.title}}</h1>
+            <h1><a href="{{page.permalink}}">{{performance.title}}</a></h1>
             <h3>{% if performance.subtitle %}
               {{performance.subtitle}}
             {% endif %}</h3>
@@ -49,13 +49,15 @@ layout: compress
             <h4>{{performance.venue}}<br/>
             {{performance.address}}</h4>
             {% if performance.facebookurl %}
-              <p>Regardez Facebook à <a href="{{performance.facebookurl}}">{{performance.facebookurl}}</a>.</p>
+              <!-- <p>Regardez Facebook à <a href="{{performance.facebookurl}}">{{performance.facebookurl}}</a>.</p> -->
+              <p>See Facebook event <a href="{{performance.facebookurl}}">{{performance.facebookurl}}</a>.</p>
             {% endif %}
             {% if performance.ticketstext %}
               <p>{{performance.ticketstext}}</p>
             {% endif %}
             {% if performance.ticketsurl %}
-              <p>Billet disponible à <a href="{{performance.ticketsurl}}">{{performance.ticketsurl}}</a>.</p>
+              <!-- <p>Billets disponible à <a href="{{performance.ticketsurl}}">{{performance.ticketsurl}}</a>.</p> -->
+              <p>Tickets available at <a href="{{performance.ticketsurl}}">{{performance.ticketsurl}}</a>.</p>
             {% endif %}
           </div>
         {% endfor %}
