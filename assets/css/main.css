@@ -445,6 +445,9 @@ pre>code {
     max-width: 1170px;
     margin: 0 auto
   }
+  .group-photo {
+    max-width: 90%;
+  }
 }
 
 .header {

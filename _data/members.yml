@@ -1,7 +1,7 @@
 - name: "Dave Benson"
   roles: "member"
   id: "dbenson"
-  bio_en: "Dave Benson has been an active member of Montreal’s professional choral community for over 20 years. In that time, he has sung with many of the city’s finest groups, including Viva Voce, the Theatre of Early Music and the Montreal Opera Chorus. He continues to sing regularly with the choir of the Church of St. Andrew and St. Paul and the Montreal Symphony Orchestra chorus. Further afield, he has toured nationally with the Canadian Chamber Choir and the National Youth Choir, and in Germany and Greece with the Stuttgart Festival Ensemble Chorus. He holds a Bachelor’s degree in Voice Performance (High Distinction) from McGill University and is currently completing a doctorate in Sound Recording at the same institution."
+  bio_en: "Dave Benson has been an active member of Montreal’s professional choral community for over 20 years. In that time, he has sung with many of the city’s finest groups, including Voces Borealis, the Theatre of Early Music and the Montreal Opera Chorus. He continues to sing regularly with the choir of the Church of St. Andrew and St. Paul, the choir of the Montreal Bach Festival, and the Montreal Symphony Orchestra chorus. Further afield, he has toured nationally with the Canadian Chamber Choir and the National Youth Choir, and in Germany and Greece with the Stuttgart Festival Ensemble Chorus. He holds a Bachelor’s degree in Voice Performance from McGill University, as well as graduate degrees in Music Technology and Sound Recording from the same institution."
   bio_fr:
   email:
   twitter: 
@@ -43,13 +43,25 @@
   twitter: 
   homepage:
   
+
+- name: "Ellen Torrie"
+  roles: "member"
+  id: "etorrie"
+  bio_en: >
+    Ellen Torrie is an Ontario-born soprano, singer-songwriter, and performance curator living in Montreal. Since 2020, they have been lead soprano at Montreal’s Christ Church Cathedral and perform regularly with various ensembles in the city and across Canada. They received their master’s degree in Early music vocal performance at McGill University under the tutelage of Dominique Labelle in 2022 and last summer, they were featured as inaugural Emerging Artist of Early Music Vancouver’s Bach Fest alongside Marie Nadeau-Tremblay. Ellen received their Bachelor of Music Therapy at Acadia University in 2018. While there, they appeared frequently as a soloist with local ensembles and was lead soprano of the Manning Chapel Choir from 2014-2018. In 2017, Ellen was awarded the Canadian Federation of University Women scholarship which funded their participation in Accademia Europea Dell’Opera in Lucca, Italy, where they played Oberto in Handel’s Alcina. Ellen is currently exploring the practice of self-accompanying early music on baroque guitar. As a queer non-binary artist, Ellen is guided by the knowledge of their queer elders and ancestors in the research and performance of radically inclusive stories as they continue to develop musical languages to explore that which is most richly human.
+  #bio_fr: >
+  #  John Giffen se produit régulièrement autant comme soliste à l’opéra qu’au concert dans des oratorios: Écossais, Silent Night (Opéra de Montréal); rôle-titre dans Elijah de Mendelssohn, Israel et Egypt, de Handel (Chœur Classique de Montréal, Maison Symphonique de Montréal), Moine tibétain, Alexandre (Chants libres). Monsieur Giffen possède également une solide expérience de chant choral qui l'emmène à chanter avec des formations d’élites comme La Chapelle de Québec et Le Studio de Musique Ancienne de Montréal. Récemment, en automne 2022, il a été soliste dans un programme d’oeuvres de Schütz avec le Studio de Musique Ancienne de Montréal, et également au printemps 2017 dans un concert d’œuvres de Campra. Le très polyvalent baryton a été soliste dans la Messe en Ré majeur de Dvorak à l’Église St. Andrew and St. Paul en automne 2022. En décembre 2016, sa voix a pu être entendue sur les ondes de Radio Canada lors d’un concert diffusée de cette même église. Au printemps 2019, John Giffen s’est produit en récital voix solo et orgue lors d’une tournée en Alberta organisée par le Concours International d’orgue du Canada. John considère le chant non seulement comme une carrière, mais aussi comme un geste puissant, politique et social. Il crois en le pouvoir de la musique et de la voix humaine afin de nous aider à s’incarner pleinement, nous permettant de nommer nos besoins, nos attentes et nos limites, d’exprimer les émotions qui nous habitent, et d’être plus à l’écoute, le tout nous aidant à devenir plus humain, à la fois individuellement et collectivement.
+  email:
+  twitter: 
+  homepage:
+
 - name: "John Giffen"
   roles: "member"
   id: "jgiffen"
-  #bio_fr: >
-  #  John Giffen, originaire d'Edmonton, vivant maintenant à Montréal depuis 2005 a suivi ses études au Conservatoire de Musique de Montréal. Se produisant régulièrement comme soliste sur les scènes d'opéra et oratorio à Montréal: Soldat Écossais, Silent Night, (Opéra de Montréal); rôle-titre dans Elijah de Mendelssohn, (Chœur Classique de Montréal, Maison Symphonique de Montréal), Moine tibétain, Alexandre, (Chants libres), il possède également une solide expérience de chant choral:  Chapelle de Québec; Studio de Musique Ancienne de Montréal. En Décembre, 2016, sa voix a été entendue sur les ondes de Radio Canada comme soliste avec le Choeur de l'église de Saint Andrew et Saint Paul.  En automne 2017, il a été soliste dans les œuvres de Campra avec le Studio de Musique Ancienne de Montréal, et en printemps 2019, il s’est produit dans une tournée des récitals solos en Alberta, accompagné de l’orgue, produit par le Concours International Canadien de l’Orgue.
   bio_en: >
-    John Giffen, native to Edmonton, now living in Montreal since 2005, pursued his studies at the Conservatoire de Musique de Montreal. Appearing regularly as a soloist on the opera and oratorio stage in Montreal: Scottish Soldier, in Silent Night, (Opera de Montreal); title role in Mendelssohn's Elijah, (Choeur Classique de Montreal, Maison Symphonique de Montréal), Tibetan monk, Alexandre, (Chants libres), he is equally active in choral singing; La Chapelle de Québec; Studio de Musique Ancienne de Montréal. In December 2016 his voice was heard on CBC radio as a soloist with the Choir of the Church of Saint Andrew and Saint Paul.  In autumn, 2017 he was a soloist in works by Campra with the Studio de Musique Ancienne de Montréal, and in the spring of 2019, he performed a tour of solo recitals in Alberta, accompanied by organ, produced by the Canadian International Organ Competition. 
+    John Giffen, native to Edmonton, now living in Montreal since 2005, pursued his studies at the Conservatoire de Musique de Montreal. He has appeared regularly as a soloist on the opera and oratorio stage in Montreal: Scottish Soldier, in Silent Night, (Opera de Montreal);  Mendelssohn's Elijah, Handel’s Israel and Egypt (Choeur Classique de Montreal), Tibetan monk, Alexandre, (Chants libres). In Fall 2022, he was bass soloist in works by Schütz with the Studio de Musique Ancienne de Montréal, as well as a Dvorak Mass at the Church of St Andrew and St Paul; in 2016, soloist on a CBC radio broadcast from that same church, and in Spring 2019, a recital tour of Alberta for the Canadian International Organ Competition. John considers singing not only to be a career choice but a powerful political and social act. He believes in the power of music and the human voice to help us become more fully embodied, enabling us to name our needs, to set boundaries, to express the emotions that live in us and to listen better, all of which, helping us to become more human, both individually and collectively. 
+  #bio_fr: >
+  #  John Giffen se produit régulièrement autant comme soliste à l’opéra qu’au concert dans des oratorios: Écossais, Silent Night (Opéra de Montréal); rôle-titre dans Elijah de Mendelssohn, Israel et Egypt, de Handel (Chœur Classique de Montréal, Maison Symphonique de Montréal), Moine tibétain, Alexandre (Chants libres). Monsieur Giffen possède également une solide expérience de chant choral qui l'emmène à chanter avec des formations d’élites comme La Chapelle de Québec et Le Studio de Musique Ancienne de Montréal. Récemment, en automne 2022, il a été soliste dans un programme d’oeuvres de Schütz avec le Studio de Musique Ancienne de Montréal, et également au printemps 2017 dans un concert d’œuvres de Campra. Le très polyvalent baryton a été soliste dans la Messe en Ré majeur de Dvorak à l’Église St. Andrew and St. Paul en automne 2022. En décembre 2016, sa voix a pu être entendue sur les ondes de Radio Canada lors d’un concert diffusée de cette même église. Au printemps 2019, John Giffen s’est produit en récital voix solo et orgue lors d’une tournée en Alberta organisée par le Concours International d’orgue du Canada. John considère le chant non seulement comme une carrière, mais aussi comme un geste puissant, politique et social. Il crois en le pouvoir de la musique et de la voix humaine afin de nous aider à s’incarner pleinement, nous permettant de nommer nos besoins, nos attentes et nos limites, d’exprimer les émotions qui nous habitent, et d’être plus à l’écoute, le tout nous aidant à devenir plus humain, à la fois individuellement et collectivement.
   email:
   twitter: 
   homepage:
@@ -91,16 +103,17 @@
   homepage:
 
 - name: "Anna Lewton-Brain"
-  roles: "member, board"
+  roles: "member"
   id: "alewton-brain"
-  bio_en: "Anna Lewton-Brain, BA (Vind), MA (Dal) is completing a PhD in English Literature at McGill University, where she teaches courses on poetics and Shakespeare. Her dissertation, entitled “Metaphysical Music: Donne, Herbert, Crashaw, and Seventeenth-Century Song” examines the intersections of music and the Metaphysical poets in Renaissance English literary culture. Anna has maintained a singing career in tandem with her academic pursuits, performing with the King’s College Chapel Choir, Symphony Nova Scotia Chorus, McGill Chamber Orchestra, Music at the Red Roof Bach Cantata Series, and in the Montreal Bach Festival. Her literary and musical vocations intersect frequently: she presented a public lecture on music and poetry at the Montreal Baroque Festival in 2014, performed in a workshop on Renaissance polyphony at the Stratford Shakespeare Festival in June 2015, and lead and sang in a workshop on seventeenth-century poetry and music at the University of Cambridge in July 2015. She is a founding member of One Equall Musick and has lead a number of projects with the ensemble, including the Book of Common Prayer celebratory 350th anniversary Evensong series (2012), the Advent lessons and carols service (2014), and One Equall Musick’s performance at the launch of the Early Modern Conversions Project (2013), an international research project hosted by McGill University (earlymodernconversions.org). Anna has over a decade of professional experience in cathedral and parish choirs, and currently works as a section leader at Christ Church Cathedral, Montreal."
+  bio_en: >
+    Anna Lewton-Brain is an artist with a diverse background, equally comfortable as a soloist, ensemble singer, dramaturge and pedagogue. Anna has been a featured soloist under Canadian directors such as Paul Halley, Patrick Wedd, Pierre Perron, and Alain Trudel, and she sings with a number of early music ensembles, including The Theatre of Early Music, Aureas Voces, and One Equall Musick. Anna has been a church musician all her life and is currently alto section leader at the church of St John the Evangelist in Montreal. In tandem with her singing career, Anna has pursued a career in academia. She recently completed a PhD in English literature at McGill University and is a Faculty member at Dawson College where she teaches courses on Shakespeare and poetics. Her literary and musical vocations intersect frequently: she has led workshops on music and poetry at the Montreal Baroque Festival, the Stratford Shakespeare Festival, CRASSH (the Centre for Research in the Arts, Social Sciences and Humanities) at the University of Cambridge, and at the Guildhall School of Music in London. As a performer, both on stage and in the classroom, Anna is known for her authentic and engaging storytelling.  She employs the powers of rhetoric to communicate with audiences with heartfelt intention. 
   bio_fr:
   email:
   twitter: 
   homepage:
   
 - name: "Kimberley Lynch"
-  roles: "member"
+  roles: "member,board"
   id: "klynch"
   bio_en: "Kimberley Lynch is a soprano based in Montreal, both an active soloist as well as a choral ensemble singer whose repertoire spans the Baroque era to the 21st century. She is an avid interpreter of contemporary music and has given concerts premiering works by numerous composers. Recent concerts include a program called Murmurations for organ voice and electronics (May 2021) and The Wandering Minstrel as part of Studio de musique ancienne de Montréal’s «Concerts intimes» series (April 2021). Kimberley appears frequently with many Montreal vocal ensembles, including Choeur de l’Orchestre symphonique de Montréal, the Choir of the Church of Saint Andrew and Saint Paul, Voces Borealis, and One Equall Musick. She was featured as a soloist on the church of Saint Andrew and Saint Paul's most recent album Distance (ATMA classique, 2021). She and pianist Polina Gubnitskaia have performed as a voice-piano duo giving many concerts together since 2017. With funding from Montreal's Bourse jeunes volontaires they produced their first recording at the Chapelle historique du Bon Pasteur, featuring music by Robert Schumann (May 2018).  Their most recent performance was a concert at the Maison de la Culture Pointe-aux-Trembles, featuring a program entitled, Le Poète Parle/ The Poet Speaks (October 2020). Kimberley holds a masters degree in opera and voice performance at McGill University where she played the title role in Handel's opera Rodelinda among many other operatic roles."
   bio_fr:
@@ -118,7 +131,7 @@
   homepage: "http://www.matthewmilner.name"
   
 - name: "Rona Nadler"
-  roles: "director"
+  roles: "director,board"
   id: "rnadler"
   bio_en: "Montreal-based musician Rona Nadler enjoys a multi-faceted career a harpsichordist, vocalist, and music director. Rona has performed across the United States and Canada as a member of the quartet Infusion Baroque, while also serving as Artistic Director of the vocal ensemble One Equall Musick. She also leads and composes new music for the vocal ensemble Blue Dawn Quartet. Rona was recently appointed Early Music Vocal Coach at the Schulich School of Music of McGill University. In addition to her work in the field of early music, Rona serves as Music Director and Cantorial Soloist at Temple Emanu-El-Beth Sholom in Westmount, Quebec."
   bio_fr:
@@ -162,3 +175,8 @@
   twitter: 
   homepage: "http://meaganzantingh.com"
   
+- name: "David Moll"
+  roles: "board"
+
+- name: "Nataly Gilbert"
+  roles: "board"
