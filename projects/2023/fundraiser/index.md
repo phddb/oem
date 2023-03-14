@@ -3,7 +3,7 @@ layout: project
 title: "Warm Your Spirits! - Annual One Equall Musick Fundraiser"
 permalink: "/projects/2023/fundraiser/"
 projectyear: "2023"
-categories: [project,current]
+categories: [project]
 description: >
   Come join us for an intimate evening of songs, spirits, and nibbles at the Maison Louis-Joseph Forget in Montréal's Golden Square Mile!
 
